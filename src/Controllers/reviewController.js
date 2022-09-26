@@ -51,7 +51,7 @@ try {
 }
 
 
-const updateReview = async function (req, res) {
+const updateReview = async function (req, res) { 
     try {
         let bookId = req.params.bookId
         let reviewId = req.params.reviewId
